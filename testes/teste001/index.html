@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem dinâmica</title>
+</head>
+<body>
+    <h1>Teste de imagem dinâmica</h1>
+    <p>A intenção é que as imagens mudem de acordo com o tamanho da tela.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/paisagem-p.jpg" type="image/jpeg">
+        <source media="(max-width:1050px )" srcset="imagens/paisagem-m.jpg" type="image/jpeg">
+        <img src="imagens/paisagem-g.jpg" alt="Veja a imagem dinâmica">
+    </picture>
+</body>
+</html>
